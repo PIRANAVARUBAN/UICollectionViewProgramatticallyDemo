@@ -6,3 +6,6 @@ Here I am trying to create a UICollectionView from Basic Programming not using s
 
 tag 0.0.1  
 CollectionView using Basic CollectionViewCell 
+
+tag 0.0.2
+Custom CollectionView Cell is added
