@@ -12,6 +12,7 @@
 		78C251DC21A10DF4008922B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78C251DA21A10DF4008922B1 /* Main.storyboard */; };
 		78C251DE21A10DF5008922B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78C251DD21A10DF5008922B1 /* Assets.xcassets */; };
 		78C251E121A10DF5008922B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78C251DF21A10DF5008922B1 /* LaunchScreen.storyboard */; };
+		78C251E921A1128A008922B1 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C251E821A1128A008922B1 /* CustomCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		78C251DD21A10DF5008922B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78C251E021A10DF5008922B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78C251E221A10DF5008922B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78C251E821A1128A008922B1 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				78C251D621A10DF4008922B1 /* AppDelegate.swift */,
 				78C251D821A10DF4008922B1 /* ViewController.swift */,
+				78C251E821A1128A008922B1 /* CustomCollectionViewCell.swift */,
 				78C251DA21A10DF4008922B1 /* Main.storyboard */,
 				78C251DD21A10DF5008922B1 /* Assets.xcassets */,
 				78C251DF21A10DF5008922B1 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78C251D921A10DF4008922B1 /* ViewController.swift in Sources */,
+				78C251E921A1128A008922B1 /* CustomCollectionViewCell.swift in Sources */,
 				78C251D721A10DF4008922B1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

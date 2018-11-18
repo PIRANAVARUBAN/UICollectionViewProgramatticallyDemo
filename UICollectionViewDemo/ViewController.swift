@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class ViewController: UIViewController  {
     
     let kCellIdentifier_CollectionViewCell = "kCellIdentifier_CollectionViewCell"
@@ -43,7 +44,7 @@ class ViewController: UIViewController  {
         
         let collectionViewLayout = UICollectionViewFlowLayout();
         let testCollectionView = UICollectionView(frame: CGRect.zero, collectionViewLayout: collectionViewLayout)
-        testCollectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: kCellIdentifier_CollectionViewCell)
+        testCollectionView.register(CustomCollectionViewCell.self, forCellWithReuseIdentifier: kCellIdentifier_CollectionViewCell)
         testCollectionView.translatesAutoresizingMaskIntoConstraints = false
         testCollectionView.backgroundColor = UIColor.purple
         testCollectionView.dataSource = self
